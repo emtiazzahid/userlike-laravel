@@ -1,0 +1,43 @@
+{
+    "name": "emtiazzahid/userlike-laravel",
+    "description": "A userlike chat widget for Laravel.",
+    "type": "library",
+    "keywords": [
+        "laravel",
+        "userlike.com",
+        "userlike",
+        "tawk",
+        "chat",
+        "widget"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/emtiazzahid/userlike-laravel",
+    "authors": [
+        {
+            "name": "Emtiaz Zahid",
+            "homepage": "https://github.com/emtiazzahid",
+            "email": "emtiazzahid@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "illuminate/support": ">=5.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "EmtiazZahid\\UserLike\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "EmtiazZahid\\UserLike\\UserLikeServiceProvider"
+            ],
+            "aliases": {
+                "UserLike": "EmtiazZahid\\UserLike\\UserLike"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
