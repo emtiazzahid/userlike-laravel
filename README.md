@@ -1,4 +1,4 @@
-# userlike.com for Laravel
+# userlike for Laravel
 
 <p>
     <a href="https://packagist.org/packages/emtiazzahid/userlike-laravel"><img src="https://img.shields.io/packagist/l/emtiazzahid/userlike-laravel" alt="License"></a>
@@ -6,7 +6,7 @@
     <a href="https://packagist.org/packages/emtiazzahid/userlike-laravel"><img src="https://img.shields.io/packagist/dt/emtiazzahid/userlike-laravel" alt="Total Downloads"></a>
 </p>
 
-userlike.com has a lot of [integrations](https://www.userlike.com/en/addons), but not for Laravel. This is an userlike chat widget for Laravel.
+userlike has a lot of [integrations](https://www.userlike.com/en/addons), but not for Laravel. This is an userlike chat widget for Laravel.
 
 <p>
     <a href="https://www.userlike.com" target="_blank">
